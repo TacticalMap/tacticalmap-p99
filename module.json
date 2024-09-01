@@ -1,0 +1,51 @@
+{
+  "name": "tacticalmap-p99",
+  "id": "tacticalmap-p99",
+  "title": "City on Fire",
+  "description": "The city has been beset by misfortunes and a fire is its consequence, which threatens to destroy the homes of the city's residents.",
+  "author": "Tactical Master",
+  "authors": [],
+  "url": "https://www.patreon.com/tacticalmap",
+  "flags": {},
+  "version": "1.0",
+  "minimumCoreVersion": "0.7.5",
+  "compatibleCoreVersion": "11",
+  "scripts": [],
+  "esmodules": [],
+  "styles": [],
+  "languages": [],
+  "packs": [
+    {
+      "name": "city-on-fire",
+      "label": "City on Fire",
+      "path": "packs/city-on-fire.db",
+      "type": "Scene",
+	  "entity": "Scene",
+      "module": "city-on-fire",
+      "private": false
+    }
+  ],
+  "system": [],
+  "dependencies": [],
+  "socket": false,
+  "relationships": {
+    "requires": [
+      {
+        "id": "tagger",
+        "manifest": "https://github.com/fantasycalendar/FoundryVTT-Tagger/releases/latest/download/module.json",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "monks-active-tiles",
+        "manifest": "https://github.com/ironmonk88/monks-active-tiles/releases/latest/download/module.json",
+        "type": "module",
+        "compatibility": {}
+      }
+    ]
+  },
+  "manifest": "https://raw.githubusercontent.com/TacticalMap/tacticalmap-p99/main/module.json",
+  "download": "https://github.com/TacticalMap/tacticalmap-p99/archive/refs/heads/main.zip",
+  "protected": false,
+  "coreTranslation": false
+}
